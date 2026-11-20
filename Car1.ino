@@ -14,15 +14,13 @@ const char* password = "";
 const char* mqtt_server = "broker.emqx.io";
 
 // Twilio credentials (fill with your info)
-const char* twilio_sid = "AC3d97b802699822348c5e0bacb3287db6";
-const char* twilio_auth_token = "43a11f52ca9095a4362c3b5de304c353";
-const char* twilio_phone = "+15413488576"; // Your Twilio phone number
+const char* twilio_sid = "";
+const char* twilio_auth_token = "";
+const char* twilio_phone = ""; // Your Twilio phone number
 
 // Alert target phone numbers
-const char* alertNumbers[3] = {
-  "+919626849097",
-  "+916282556241",
-  "+919176112006"
+const char* alertNumbers[] = {
+  
 };
 
 #define SDA_PIN 25
