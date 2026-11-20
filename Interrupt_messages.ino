@@ -3,8 +3,8 @@
 #include <WebServer.h>
 
 // WiFi credentials
-const char* ssid = "Jayy";
-const char* password = "Jayaraj@231";
+const char* ssid = "";
+const char* password = "";
 
 // MQTT broker info
 const char* mqtt_server = "broker.emqx.io";
