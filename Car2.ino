@@ -2,8 +2,8 @@
 #include <PubSubClient.h>
 #include <WebServer.h>
 // ================= WiFi and MQTT config =================
-const char* ssid = "Jayy";
-const char* password = "Jayaraj@231";
+const char* ssid = "";
+const char* password = "";
 const char* mqtt_server = "broker.emqx.io";
 const char* mqtt_user = "";
 const char* mqtt_pass = "";
