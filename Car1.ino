@@ -7,8 +7,8 @@
 #include <Adafruit_Sensor.h>
 
 // WiFi credentials
-const char* ssid = "Jayy";
-const char* password = "Jayaraj@231";
+const char* ssid = "";
+const char* password = "";
 
 // MQTT broker
 const char* mqtt_server = "broker.emqx.io";
